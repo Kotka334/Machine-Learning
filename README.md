@@ -43,11 +43,20 @@ To run the game, follow these steps:
    ```bash
    git clone https://github.com/Kotka334/Machine-Learning.git
    cd Gomoku
+   ```
 2. Install the necessary dependencies:
    ```bash
    pip install numpy
+   ```
 ## Training the AI
 To train the AI, you can modify the number of training episodes in the `train_ai()` function. The more episodes the agent plays, the better it gets at the game.
   ```python
   train_ai(agent, env, episodes=2000)
+  ```
 ## User Interface
+![Game Screenshot](link-to-your-image.png)
+
+## Future Work
+- **Deep Learning**: Introduce deep Q-learning to replace the traditional Q-table with a neural network, allowing the AI to generalize better to unseen board states.
+- **Monte Carlo Tree Search (MCTS)**: Implement MCTS for better decision-making by simulating possible future moves.
+- **Enhanced Game Strategy**: Improve the AI's strategy by introducing more advanced tactics and strategies beyond basic Q-learning.
