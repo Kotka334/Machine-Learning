@@ -54,7 +54,7 @@ To train the AI, you can modify the number of training episodes in the `train_ai
   train_ai(agent, env, episodes=2000)
   ```
 ## User Interface
-![Game Screenshot](link-to-your-image.png)
+![Game Screenshot](https://github.com/Kotka334/Machine-Learning/blob/master/GameUI/GameUI.jpg)
 
 ## Future Work
 - **Deep Learning**: Introduce deep Q-learning to replace the traditional Q-table with a neural network, allowing the AI to generalize better to unseen board states.
